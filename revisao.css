@@ -1,0 +1,13 @@
+#logo h1 {
+    font-size: 48px;
+    color: lightgreen;
+}
+
+p {
+    margin: 0;
+    background-color: lightblue;
+}
+
+.segundo-paragrafo {
+    background-color: lightcoral;
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    background-color: #ffd201;
+    list-style-type: none;
+    padding: 16px;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.menu a, .menu h1 {
+    color: #16479d;
+}
+
+.marcas-avaliadas {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.marcas-avaliadas article {
+    display: inline-block;
+    width: 150px;
+}
+
+.marcas-avaliadas article p {
+    text-align: center;
+    color: #23527c;
+}
