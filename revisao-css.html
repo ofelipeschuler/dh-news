@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregando estilos</title>
+    <!--Adicionando estilos com a tag "style" não é recomendado-->
+    <!-- <style>
+        body { /* Seletor */
+            font-family /* Propriedade */: sans-serif; /* Valor */
+            font-size: 52px;
+        }
+
+        /* Selecionando elemento usando tag */
+        strong {
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 32px;
+        }
+
+        /* Selecionando elemento usando classe */
+        .paragrafo {
+            /* Definindo uma cor com nome */
+            color: lightcoral;
+        }
+
+        .segundo-paragrafo {
+            /* Definindo uma cor com rgb */
+            /* color: rgb(97, 186, 42); */
+            /* Definindo uma cor com hexadecimal */
+            color: #ff54ff;
+        }
+
+        /* Selecionando elemento usando ID */
+        #logo {
+            background-image: url('./imgs/dh.jpeg');
+            background-repeat: no-repeat;
+            background-size: 150px;
+            height: 150px;
+        }
+
+        #logo h1 {
+            font-size: 28px;
+            text-decoration: underline;
+        }
+    </style> -->
+    <link href="./revisao.css" rel="stylesheet">
+</head>
+    <!--CSS também conhecido como Cascading Style Sheets-->
+    <!--Tradução: Folhas de Estilos em Cascata-->
+    <!--No CSS possuímos o seletor, a propriedade e o valor.-->
+    <!--No seletor definimos qual elemento queremos estilizar.-->
+    <!--Na propriedade qual estilo queremos alterar.-->
+    <!--No CSS temos alguns meios de adicionar estilos, são eles:-->
+    <!--Tags-->
+    <!--Classes-->
+    <!--IDs-->
+    <!--Inclusão de estilos inline-->
+    <!-- <body style="background-color: lightblue;"> -->
+    <body>
+        <!--Utilizando classes para estilizar-->
+        <p class="paragrafo"><strong>Meu p</strong></p>
+        <p class="segundo-paragrafo"><strong>Meu segundo p</strong></p>
+        <span class="paragrafo">Meu span</span>
+
+        <!--Utilizando IDs para estilizar-->
+        <section id="logo">
+            <h1>Meu H1</h1>
+        </section>
+    </body>
+</html>
